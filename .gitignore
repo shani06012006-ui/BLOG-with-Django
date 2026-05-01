@@ -1,0 +1,22 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Django
+staticfiles/
+media/
+.railway/
+
+# Node.js - DON'T commit node_modules to GitHub
+node_modules/
+# BUT keep package.json so Vercel can detect your frontend
+
+# IDE
+.vscode/
+.idea/
